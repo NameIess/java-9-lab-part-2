@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3285D20E21BB0DAC004CD6E6 /* MultiplicationComand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285D20D21BB0DAC004CD6E6 /* MultiplicationComand.m */; };
+		3285D21021BB0DDB004CD6E6 /* DivisionComand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285D20F21BB0DDB004CD6E6 /* DivisionComand.m */; };
+		3285D21221BB0E12004CD6E6 /* SumComand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285D21121BB0E12004CD6E6 /* SumComand.m */; };
+		3285D21421BB0E51004CD6E6 /* DifferenceComand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285D21321BB0E51004CD6E6 /* DifferenceComand.m */; };
 		32A29E6221BB06D0004C3E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E6121BB06D0004C3E1D /* main.m */; };
+		32A29E6C21BB078D004C3E1D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E6B21BB078D004C3E1D /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3285D20921BB0B4F004CD6E6 /* NSObject+ArifmeticComand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ArifmeticComand.h"; sourceTree = "<group>"; };
+		3285D20D21BB0DAC004CD6E6 /* MultiplicationComand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationComand.m; sourceTree = "<group>"; };
+		3285D20F21BB0DDB004CD6E6 /* DivisionComand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionComand.m; sourceTree = "<group>"; };
+		3285D21121BB0E12004CD6E6 /* SumComand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumComand.m; sourceTree = "<group>"; };
+		3285D21321BB0E51004CD6E6 /* DifferenceComand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferenceComand.m; sourceTree = "<group>"; };
 		32A29E5E21BB06D0004C3E1D /* Laba9Java2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Laba9Java2; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A29E6121BB06D0004C3E1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A29E6821BB0706004C3E1D /* NSObject+Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculator.h"; sourceTree = "<group>"; };
+		32A29E6B21BB078D004C3E1D /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,13 @@
 			isa = PBXGroup;
 			children = (
 				32A29E6121BB06D0004C3E1D /* main.m */,
+				32A29E6821BB0706004C3E1D /* NSObject+Calculator.h */,
+				32A29E6B21BB078D004C3E1D /* Calculator.m */,
+				3285D20921BB0B4F004CD6E6 /* NSObject+ArifmeticComand.h */,
+				3285D20D21BB0DAC004CD6E6 /* MultiplicationComand.m */,
+				3285D20F21BB0DDB004CD6E6 /* DivisionComand.m */,
+				3285D21121BB0E12004CD6E6 /* SumComand.m */,
+				3285D21321BB0E51004CD6E6 /* DifferenceComand.m */,
 			);
 			path = Laba9Java2;
 			sourceTree = "<group>";
@@ -120,6 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A29E6221BB06D0004C3E1D /* main.m in Sources */,
+				3285D20E21BB0DAC004CD6E6 /* MultiplicationComand.m in Sources */,
+				3285D21421BB0E51004CD6E6 /* DifferenceComand.m in Sources */,
+				3285D21021BB0DDB004CD6E6 /* DivisionComand.m in Sources */,
+				3285D21221BB0E12004CD6E6 /* SumComand.m in Sources */,
+				32A29E6C21BB078D004C3E1D /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
